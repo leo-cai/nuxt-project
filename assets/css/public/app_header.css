@@ -1,0 +1,158 @@
+/* app header 导航端样式 */
+.sj-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  margin-bottom: 0;
+  height: 60px;
+  min-width: 280px;
+  border-top: 2px solid #c9799e;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.sj-nav-wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.sj-nav-left {
+  width: 156px;
+  height: 60px;
+  padding-top: 15px;
+  margin-right: 25px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sj-nav-middle {
+  height: 60px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sj-nav-item {
+  width: 75px;
+  height: 40px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sj-nav-search {
+  width: 220px;
+  height: 30px;
+  margin: 15px 0 0 25px;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  background: #fafafa;
+  border-radius: 15px;
+  font-size: 14px;
+  text-align: left;
+  overflow: hidden;
+  float: left;
+}
+
+.sj-nav-search-input {
+  width: 180px;
+  height: 30px;
+  line-height: 26px;
+  padding: 2px;
+  border: 0;
+  font-size: 14px;
+  outline: none;
+  background: transparent;
+  float: left;
+}
+
+.sj-nav-search-btn {
+  margin-top: 5px;
+  width: 22px;
+  height: 22px;
+  float: left;
+}
+
+.sj-nav-right {
+  width: 150px;
+  height: 60px;
+  box-sizing: border-box;
+  float: right;
+}
+
+.sj-nav-wap-left {
+  display: none;
+  float: left;
+  margin-top: 20px;
+}
+
+.sj-nav-wap-middle {
+  display: none;
+  margin-top: 15px;
+}
+
+.sj-nav-logo {
+  width: 150px;
+  height: 30px;
+}
+
+.sj-nav-wap-right {
+  display: none;
+  float: right;
+  margin-top: 15px;
+}
+
+.sj-nav-wap-left-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 20px;
+}
+
+.sj-nav-wap-avatar {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  background: url("../../../assets/image/avatar.png") no-repeat;
+  background-size: 100%;
+  border: none;
+}
+
+.icon-bar {
+  display: block;
+  background-color: #333;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+
+.icon-bar+ .icon-bar {
+  margin-top: 6px;
+}
+
+/* nav bar 移动端样式*/
+@media only screen and (max-width: 735px){
+  .sj-nav {
+    border: none;
+  }
+  .sj-nav-left {
+    display: none;
+  }
+  .sj-nav-right {
+    display: none;
+  }
+  .sj-nav-middle {
+    display: none;
+  }
+  .sj-nav-wap-left {
+    display: block;
+  }
+  .sj-nav-wap-middle {
+    display: inline-block;
+  }
+  .sj-nav-wap-right {
+    display: block;
+  }
+}

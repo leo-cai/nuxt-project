@@ -1,0 +1,118 @@
+/* auth 登录 注册 重置密码 样式 */
+.sj-auth-body {
+  position: relative;
+  top: 60px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.sj-auth-wrapper {
+  max-width: 540px;
+  min-height: 360px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 3px #d3d3d3;
+  background-color: #fff;
+}
+
+.sj-auth-center {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 40px 0;
+  font-size: 13px;
+}
+
+.sj-auth-title {
+  width: 100%;
+}
+
+.sj-auth-title-placeholder {
+  display: inline-block;
+  float: left;
+  text-align: justify;
+  text-align-last: justify;
+  padding-top: 22px;
+}
+
+.sj-auth-title-center {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #c9799e;
+  font-size: 32px;
+}
+
+.sj-auth-title-switch {
+  display: inline-block;
+  padding-top: 22px;
+  color: #9a9a9a;
+  font-size: 14px;
+  float: right;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.sj-auth-center-item {
+  width: 100%;
+  overflow: hidden;
+}
+
+.sj-auth-center-item-toggle {
+  line-height: 36px;
+}
+
+.sj-auth-center-item-right {
+  width: 30%;
+  height: 36px;
+  float: left;
+  margin-top: 25px;
+}
+
+.sj-auth-center-item-input {
+  width: 70%;
+  float: left;
+}
+
+.sj-auth-center-item-flex {
+  flex: 1;
+}
+
+.sj-auth-center-divider-left {
+  margin: 5px 20px 5px 0;
+  width: 80px;
+  display: inline-block;
+  border-top: 1px solid #c9799e;
+}
+
+.sj-auth-center-divider-right {
+  margin: 5px 0 5px 20px;
+  width: 80px;
+  display: inline-block;
+  border-top: 1px solid #c9799e;
+}
+
+.sj-auth-center-item ul {
+  display: block;
+  margin: 20px 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.sj-auth-center-item ul li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.sj-auth-center-other-img {
+  width: 50px;
+  height: 50px;
+}
+
+.sj-auth-sms-btn {
+  font-size: 10px;
+}
+
+.sj-auth-reset {
+  float: right;
+  padding-top: 22px;
+  color: #9a9a9a;
+  font-size: 14px;
+}
