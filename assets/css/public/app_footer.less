@@ -26,16 +26,27 @@
 }
 
 .sj-footer-content {
-  text-align: left;
-  margin-top: 15px;
+  margin: 15px 0 60px;
   font-size: 12px;
   line-height: 20px;
+  overflow: hidden;
 }
 
 .sj-footer-tel {
   font-size: 22px;
   line-height: 26px;
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+.sj-footer-wechat {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.sj-footer-wechat img {
+  width: 100px;
+  height: 100px;
 }
 
 .sj-footer-email {
@@ -66,8 +77,7 @@
   margin-bottom: 30px;
 }
 
-.sj-footer-contact-item .link {
-  color: #9a9a9a;
+.sj-footer-contact-item p {
   font-size: 12px;
   line-height: 12px;
   margin-bottom: 20px;
@@ -83,10 +93,13 @@
 }
 
 /* footer 移动端样式*/
-@media only screen and (max-width: 735px){
+@media only screen and (max-width: 820px){
   .sj-footer-intro {
     width: 100%;
     padding: 0;
+  }
+  .sj-footer-content {
+    margin: 20px 0;
   }
   .sj-footer-tel {
     margin-top: 15px;

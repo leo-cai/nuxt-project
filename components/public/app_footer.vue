@@ -22,42 +22,47 @@
           <img class="sj-nav-logo" src="../../assets/image/logo.svg" />
         </div>
         <p class="sj-footer-content">
-          这是一堆乱码乱码这是一堆乱码乱码这是一堆乱码乱码这是一堆乱码乱码这是一堆乱码乱码这是一堆乱码乱码这是一堆乱码乱码。。。
           书山有路勤为径，学海无涯苦作舟。
         </p>
-        <p class="sj-footer-tel">400-XXXX-XXX</p>
-        <p class="sj-footer-email">hellocailiang@163.com</p>
+        <p class="sj-footer-tel">联系我：</p>
+        <div class="sj-footer-wechat">
+          <img src="../../assets/image/wechat.png"/>
+        </div>
+        <!--<p class="sj-footer-tel">XXX-XXXX-XXXX</p>-->
+        <!--<a href="mailto:hellocailiang@163.com" class="link">-->
+          <!--<p class="sj-footer-email">hellocailiang@163.com</p>-->
+        <!--</a>-->
       </div>
       <div class="sj-footer-contact">
         <div class="sj-footer-contact-box">
           <div class="sj-footer-contact-item">
-            <h2 class="title">关于我们</h2>
-            <nuxt-link to="/about">
-              <p class="link">关于我们</p>
+            <h2 class="title">关于我</h2>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
             </nuxt-link>
-            <nuxt-link to="/about">
-              <p class="link">关于我们</p>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
             </nuxt-link>
-            <nuxt-link to="/join">
-              <p class="link">加入我们</p>
-            </nuxt-link>
-          </div>
-          <div class="sj-footer-contact-item">
-            <h2 class="title">关于我们</h2>
-            <nuxt-link to="/about">
-              <p class="link">关于我们</p>
-            </nuxt-link>
-            <nuxt-link to="/join">
-              <p class="link">加入我们</p>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
             </nuxt-link>
           </div>
           <div class="sj-footer-contact-item">
-            <h2 class="title">关于我们</h2>
-            <nuxt-link to="/about">
-              <p class="link">关于我们</p>
+            <h2 class="title">关于我</h2>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
             </nuxt-link>
-            <nuxt-link to="/join">
-              <p class="link">加入我们</p>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
+            </nuxt-link>
+          </div>
+          <div class="sj-footer-contact-item">
+            <h2 class="title">关于我</h2>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
+            </nuxt-link>
+            <nuxt-link to="/about" class="link">
+              <p>关于我</p>
             </nuxt-link>
           </div>
         </div>
@@ -75,5 +80,5 @@
 </template>
 
 <style>
-  @import "../../assets/css/public/app_footer.css";
+  @import "../../assets/css/public/app_footer.less";
 </style>

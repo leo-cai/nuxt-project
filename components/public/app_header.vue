@@ -10,7 +10,7 @@
     methods: {
       // 搜索时间
       doSearch: function () {
-        alert(this.searchValue + '搜索功能正在测试中')
+        alert(this.searchValue + '搜索功能正在开发中')
       }
     },
     mounted () {
@@ -47,14 +47,19 @@
         </nuxt-link>
       </div>
       <div class="sj-nav-middle">
-        <nuxt-link to="/" class="link">
+        <nuxt-link to="/project" class="link">
           <div class="sj-nav-item">
             项目
           </div>
         </nuxt-link>
-        <nuxt-link to="/" class="link">
+        <nuxt-link to="/share" class="link">
           <div class="sj-nav-item">
-            活动
+            分享
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/article" class="link">
+          <div class="sj-nav-item">
+            随记
           </div>
         </nuxt-link>
         <div class="sj-nav-search">
@@ -79,6 +84,6 @@
 </template>
 
 <style>
-  @import "../../assets/css/public/app_header.css";
+  @import "../../assets/css/public/app_header.less";
 </style>
 

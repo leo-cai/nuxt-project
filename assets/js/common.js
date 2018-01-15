@@ -49,3 +49,10 @@ export function createImgCode () {
   }
   return code
 }
+
+// 数据库时间格式转YYYY-MM-DD hh:mm:ss
+export function formatDate (dateStr) {
+  let date = new Date(dateStr)
+  let year = date.getFullYear() === new Date().getFullYear() ? '' : date.getFullYear() + '年'
+  return year + date.getMonth() + 1 + '月' + date.getDate() + '日' + ' ' + date.getHours() + '时'
+}

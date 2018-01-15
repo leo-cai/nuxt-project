@@ -1,9 +1,7 @@
 /* auth 登录 注册 重置密码 样式 */
 .sj-auth-body {
-  position: relative;
-  top: 60px;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  margin: 120px auto 60px;
+  min-height: 400px;
 }
 
 .sj-auth-wrapper {
@@ -25,24 +23,35 @@
   width: 100%;
 }
 
-.sj-auth-title-placeholder {
-  display: inline-block;
-  float: left;
-  text-align: justify;
-  text-align-last: justify;
-  padding-top: 22px;
-}
-
 .sj-auth-title-center {
-  display: inline-block;
   margin-bottom: 30px;
   color: #c9799e;
   font-size: 32px;
 }
 
 .sj-auth-title-switch {
-  display: inline-block;
-  padding-top: 22px;
+  margin-top: -52px;
+  /*color: #9a9a9a;*/
+  font-size: 14px;
+  float: right;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.sj-auth-item {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.sj-auth-label {
+  display: block;
+  margin-top: 10px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.sj-auth-label-right {
+  margin-top: -52px;
   color: #9a9a9a;
   font-size: 14px;
   float: right;
@@ -50,58 +59,53 @@
   text-align-last: justify;
 }
 
-.sj-auth-center-item {
-  width: 100%;
-  overflow: hidden;
-}
-
-.sj-auth-center-item-toggle {
+.sj-auth-item-toggle {
   line-height: 36px;
 }
 
-.sj-auth-center-item-right {
+.sj-auth-item-right {
   width: 30%;
   height: 36px;
   float: left;
   margin-top: 25px;
 }
 
-.sj-auth-center-item-input {
+.sj-auth-item-input {
   width: 70%;
   float: left;
 }
 
-.sj-auth-center-item-flex {
+.sj-auth-item-flex {
   flex: 1;
 }
 
-.sj-auth-center-divider-left {
+.sj-auth-divider-left {
   margin: 5px 20px 5px 0;
   width: 80px;
   display: inline-block;
   border-top: 1px solid #c9799e;
 }
 
-.sj-auth-center-divider-right {
+.sj-auth-divider-right {
   margin: 5px 0 5px 20px;
   width: 80px;
   display: inline-block;
   border-top: 1px solid #c9799e;
 }
 
-.sj-auth-center-item ul {
+.sj-auth-item ul {
   display: block;
   margin: 20px 0;
   list-style: none;
   padding-left: 0;
 }
 
-.sj-auth-center-item ul li{
+.sj-auth-item ul li{
   display: inline-block;
   margin: 0 20px;
 }
 
-.sj-auth-center-other-img {
+.sj-auth-other-img {
   width: 50px;
   height: 50px;
 }
